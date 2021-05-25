@@ -1,0 +1,13 @@
+Los distintos scripts necesitan:
+-Python-
+
+·urllib.request
+·PyPDF2
+
+
+-R-
+
+·tidyverse
+·tidytext
+·udpipe
+·stylo

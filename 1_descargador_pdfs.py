@@ -15,6 +15,6 @@ for linea in entrevistas:
         url_origen = 'http://www.corpusrural.es/coser/archivos/pdf/' + indices[0] + '_' + indices[1] + '_es.pdf'
     else:
         url_origen = 'http://www.corpusrural.es/coser/archivos/pdf/' + indices[0] + '_' + indices[1] + '_' + indices[2] + '_'+ 'es.pdf'  
-    urllib.request.urlretrieve(url_origen, 'TU_RUTA_DE_DIRECTORIO/entrevistas_originales_pdf/'+ nombre +'.pdf')#La librería ya hace su magia y descarga los pdfs
+    urllib.request.urlretrieve(url_origen, 'TU_RUTA_DE_DIRECTORIO/entrevistas_originales_pdf/'+ nombre +'.pdf')#La librería ya se encarga de descargar los pdfs
 
 abrir.close()
